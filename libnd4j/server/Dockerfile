@@ -2,7 +2,7 @@
 #  @author raver119@gmail.com
 #  @author @sshepel
 #
-FROM ubuntu:bionic as builder
+FROM ubuntu:18.04 as builder
 
 LABEL Description="GraphServer container"  Vendor="SkyMind.ai"  Version="1.0.0-SNAPSHOT"
 
@@ -26,7 +26,7 @@ RUN git clone https://github.com/deeplearning4j/deeplearning4j \
     && cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release \
     && make -j 6
 
-FROM ubuntu:bionic
+FROM ubuntu:18.04
 
 COPY --from=builder /deeplearning4j/libnd4j/server/GraphServer /app/GraphServer
 COPY --from=builder /usr/local/lib/libgrpc* /usr/local/lib/
