@@ -131,7 +131,7 @@
         <datavec.version>1.0.0-SNAPSHOT</datavec.version>
         <dl4j.release.server>ossrh</dl4j.release.server>
         <dl4j-test-resources.version>1.0.0-SNAPSHOT</dl4j-test-resources.version>
-        <dl4j-test-resources.classifier></dl4j-test-resources.classifier>
+        <dl4j-test-resources.classifier/>
         <rxjava.version>2.2.21</rxjava.version>
         <jackson-asl.version>1.9.13</jackson-asl.version>
         <arrow.version>6.0.1</arrow.version>
@@ -177,12 +177,12 @@
         <javacpp.version>1.5.7</javacpp.version>
         <javacpp-presets.version>1.5.7</javacpp-presets.version>
         <javacv.version>1.5.7</javacv.version>
-        <javacpp.platform.additionalIncludePaths />
-        <javacpp.platform.cppincludepath />
-        <javacpp.platform.library.path />
+        <javacpp.platform.additionalIncludePaths/>
+        <javacpp.platform.cppincludepath/>
+        <javacpp.platform.library.path/>
         <!-- Used in nd4j-backend-impls for directory-maven-plugin to assist with finding native libs for tests -->
-        <nd4j.native.basedir />
-        <nd4j.cuda.basedir />
+        <nd4j.native.basedir/>
+        <nd4j.cuda.basedir/>
 
 
         <moditect.generate.skip>true</moditect.generate.skip>
@@ -222,7 +222,7 @@
         <commons-io.version>${commonsio.version}</commons-io.version>
         <commons-collections.version>3.2.2</commons-collections.version>
         <commons-collections4.version>4.1</commons-collections4.version>
-        <spark.version>2.4.8</spark.version>
+        <spark.version>3.1.3</spark.version>
         <spark.major.version>2</spark.major.version>
         <args4j.version>2.0.29</args4j.version>
         <slf4j.version>1.7.21</slf4j.version>
@@ -316,7 +316,7 @@
         <kotlin-logging.version>2.1.21</kotlin-logging.version>
         <test.heap.size>8g</test.heap.size>
         <test.offheap.size>8g</test.offheap.size>
-        <module.name></module.name>
+        <module.name/>
     </properties>
 
 
@@ -564,7 +564,7 @@
                             </goals>
                             <configuration>
                                 <tasks>
-                                    <echoproperties />
+                                    <echoproperties/>
                                 </tasks>
                             </configuration>
                         </execution>
@@ -967,7 +967,7 @@
                 </property>
             </activation>
             <properties>
-                <libnd4j.tests></libnd4j.tests>
+                <libnd4j.tests/>
                 <libnd4j.test.skip>true</libnd4j.test.skip>
                 <scala.test.skip>true</scala.test.skip>
                 <skipBackendChoice>true</skipBackendChoice>
@@ -982,7 +982,7 @@
                 </property>
             </activation>
             <properties>
-                <libnd4j.tests></libnd4j.tests>
+                <libnd4j.tests/>
                 <libnd4j.test.skip>true</libnd4j.test.skip>
                 <scala.test.skip>true</scala.test.skip>
                 <skipBackendChoice>true</skipBackendChoice>
