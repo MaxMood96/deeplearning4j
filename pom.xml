@@ -131,7 +131,7 @@
         <datavec.version>1.0.0-SNAPSHOT</datavec.version>
         <dl4j.release.server>ossrh</dl4j.release.server>
         <dl4j-test-resources.version>1.0.0-SNAPSHOT</dl4j-test-resources.version>
-        <dl4j-test-resources.classifier></dl4j-test-resources.classifier>
+        <dl4j-test-resources.classifier/>
         <rxjava.version>2.2.21</rxjava.version>
         <jackson-asl.version>1.9.13</jackson-asl.version>
         <arrow.version>6.0.1</arrow.version>
@@ -177,12 +177,12 @@
         <javacpp.version>1.5.7</javacpp.version>
         <javacpp-presets.version>1.5.7</javacpp-presets.version>
         <javacv.version>1.5.7</javacv.version>
-        <javacpp.platform.additionalIncludePaths />
-        <javacpp.platform.cppincludepath />
-        <javacpp.platform.library.path />
+        <javacpp.platform.additionalIncludePaths/>
+        <javacpp.platform.cppincludepath/>
+        <javacpp.platform.library.path/>
         <!-- Used in nd4j-backend-impls for directory-maven-plugin to assist with finding native libs for tests -->
-        <nd4j.native.basedir />
-        <nd4j.cuda.basedir />
+        <nd4j.native.basedir/>
+        <nd4j.cuda.basedir/>
 
 
         <moditect.generate.skip>true</moditect.generate.skip>
@@ -230,9 +230,9 @@
         <junit.platform.launcher.version>1.8.0-M1</junit.platform.launcher.version>
         <archunit.version>0.14.1</archunit.version>
         <logback.version>1.2.3</logback.version>
-        <jackson.version>2.13.3</jackson.version>
+        <jackson.version>2.13.4</jackson.version>
         <jackson.databind.version>2.13.3</jackson.databind.version>
-        <shaded.snakeyaml.version>1.26</shaded.snakeyaml.version>
+        <shaded.snakeyaml.version>1.31</shaded.snakeyaml.version>
         <geo.jackson.version>2.8.7</geo.jackson.version>
         <lombok.version>1.18.22</lombok.version>
         <json.versiounitn>20131018</json.versiounitn>
@@ -318,7 +318,7 @@
         <kotlin-logging.version>2.1.21</kotlin-logging.version>
         <test.heap.size>8g</test.heap.size>
         <test.offheap.size>8g</test.offheap.size>
-        <module.name></module.name>
+        <module.name/>
     </properties>
 
 
@@ -623,7 +623,7 @@
                             </goals>
                             <configuration>
                                 <tasks>
-                                    <echoproperties />
+                                    <echoproperties/>
                                 </tasks>
                             </configuration>
                         </execution>
@@ -1026,7 +1026,7 @@
                 </property>
             </activation>
             <properties>
-                <libnd4j.tests></libnd4j.tests>
+                <libnd4j.tests/>
                 <libnd4j.test.skip>true</libnd4j.test.skip>
                 <scala.test.skip>true</scala.test.skip>
                 <skipBackendChoice>true</skipBackendChoice>
@@ -1041,7 +1041,7 @@
                 </property>
             </activation>
             <properties>
-                <libnd4j.tests></libnd4j.tests>
+                <libnd4j.tests/>
                 <libnd4j.test.skip>true</libnd4j.test.skip>
                 <scala.test.skip>true</scala.test.skip>
                 <skipBackendChoice>true</skipBackendChoice>
