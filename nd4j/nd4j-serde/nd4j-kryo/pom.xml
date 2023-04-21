@@ -37,7 +37,7 @@
 
     <properties>
         <kryo.version>4.0.2</kryo.version>
-        <jkserializers.version>0.41</jkserializers.version>
+        <jkserializers.version>0.45</jkserializers.version>
         <module.name>nd4j.kryo</module.name>
     </properties>
 
