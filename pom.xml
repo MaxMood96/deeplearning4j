@@ -133,7 +133,7 @@
         <dl4j.release.server>ossrh</dl4j.release.server>
         <aspectj.version>1.9.7</aspectj.version>
         <dl4j-test-resources.version>1.0.0-SNAPSHOT</dl4j-test-resources.version>
-        <dl4j-test-resources.classifier></dl4j-test-resources.classifier>
+        <dl4j-test-resources.classifier/>
         <rxjava.version>2.2.21</rxjava.version>
         <arrow.version>6.0.1</arrow.version>
         <jets3t.version>0.7.1</jets3t.version>
@@ -180,12 +180,12 @@
         <javacpp.version>1.5.8</javacpp.version>
         <javacpp-presets.version>1.5.8</javacpp-presets.version>
         <javacv.version>1.5.8</javacv.version>
-        <javacpp.platform.additionalIncludePaths />
-        <javacpp.platform.cppincludepath />
-        <javacpp.platform.library.path />
+        <javacpp.platform.additionalIncludePaths/>
+        <javacpp.platform.cppincludepath/>
+        <javacpp.platform.library.path/>
         <!-- Used in nd4j-backend-impls for directory-maven-plugin to assist with finding native libs for tests -->
-        <nd4j.native.basedir />
-        <nd4j.cuda.basedir />
+        <nd4j.native.basedir/>
+        <nd4j.cuda.basedir/>
 
 
         <moditect.generate.skip>true</moditect.generate.skip>
@@ -233,7 +233,7 @@
         <junit.platform.launcher.version>1.8.0-M1</junit.platform.launcher.version>
         <archunit.version>0.14.1</archunit.version>
         <logback.version>1.2.3</logback.version>
-        <jackson.version>2.14.2</jackson.version>
+        <jackson.version>2.15.0</jackson.version>
         <jackson.databind.version>2.14.2</jackson.databind.version>
         <shaded.snakeyaml.version>1.33</shaded.snakeyaml.version>
         <geo.jackson.version>2.8.7</geo.jackson.version>
@@ -321,7 +321,7 @@
         <kotlin-logging.version>2.1.21</kotlin-logging.version>
         <test.heap.size>8g</test.heap.size>
         <test.offheap.size>8g</test.offheap.size>
-        <module.name></module.name>
+        <module.name/>
         <jdk9.exports>--add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.cs=ALL-UNNAMED --add-opens=java.base/sun.security.action=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED --add-exports java.base/jdk.internal.misc=ALL-UNNAMED --add-exports java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED</jdk9.exports>
     </properties>
 
@@ -621,7 +621,7 @@
                             </goals>
                             <configuration>
                                 <tasks>
-                                    <echoproperties />
+                                    <echoproperties/>
                                 </tasks>
                             </configuration>
                         </execution>
@@ -1035,7 +1035,7 @@
                 </property>
             </activation>
             <properties>
-                <libnd4j.tests></libnd4j.tests>
+                <libnd4j.tests/>
                 <libnd4j.test.skip>true</libnd4j.test.skip>
                 <scala.test.skip>true</scala.test.skip>
                 <skipBackendChoice>true</skipBackendChoice>
@@ -1050,7 +1050,7 @@
                 </property>
             </activation>
             <properties>
-                <libnd4j.tests></libnd4j.tests>
+                <libnd4j.tests/>
                 <libnd4j.test.skip>true</libnd4j.test.skip>
                 <scala.test.skip>true</scala.test.skip>
                 <skipBackendChoice>true</skipBackendChoice>
