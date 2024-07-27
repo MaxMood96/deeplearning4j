@@ -342,7 +342,7 @@
             <dependency>
                 <groupId>org.webjars.npm</groupId>
                 <artifactId>bootstrap</artifactId>
-                <version>4.3.1</version>
+                <version>5.0.0</version>
             </dependency>
             <!-- org.webjars.npm:cytoscape -->
             <dependency>
