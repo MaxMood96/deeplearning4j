@@ -132,9 +132,9 @@
         <dl4j.release.server>ossrh</dl4j.release.server>
         <aspectj.version>1.9.7</aspectj.version>
         <dl4j-test-resources.version>1.0.0-SNAPSHOT</dl4j-test-resources.version>
-        <dl4j-test-resources.classifier></dl4j-test-resources.classifier>
+        <dl4j-test-resources.classifier/>
         <rxjava.version>2.2.21</rxjava.version>
-        <arrow.version>6.0.1</arrow.version>
+        <arrow.version>15.0.0</arrow.version>
         <jets3t.version>0.7.1</jets3t.version>
         <metrics.version>3.2.6</metrics.version>
         <netty.version>4.1.74.Final</netty.version>
@@ -179,12 +179,12 @@
         <javacpp.version>1.5.10</javacpp.version>
         <javacpp-presets.version>1.5.10</javacpp-presets.version>
         <javacv.version>1.5.10</javacv.version>
-        <javacpp.platform.additionalIncludePaths />
-        <javacpp.platform.cppincludepath />
-        <javacpp.platform.library.path />
+        <javacpp.platform.additionalIncludePaths/>
+        <javacpp.platform.cppincludepath/>
+        <javacpp.platform.library.path/>
         <!-- Used in nd4j-backend-impls for directory-maven-plugin to assist with finding native libs for tests -->
-        <nd4j.native.basedir />
-        <nd4j.cuda.basedir />
+        <nd4j.native.basedir/>
+        <nd4j.cuda.basedir/>
 
 
         <moditect.generate.skip>true</moditect.generate.skip>
@@ -318,7 +318,7 @@
         <kotlin-logging.version>2.1.21</kotlin-logging.version>
         <test.heap.size>8g</test.heap.size>
         <test.offheap.size>8g</test.offheap.size>
-        <module.name></module.name>
+        <module.name/>
         <jdk9.exports>--add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.cs=ALL-UNNAMED --add-opens=java.base/sun.security.action=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED --add-exports java.base/jdk.internal.misc=ALL-UNNAMED --add-exports java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED</jdk9.exports>
     </properties>
 
@@ -618,7 +618,7 @@
                             </goals>
                             <configuration>
                                 <tasks>
-                                    <echoproperties />
+                                    <echoproperties/>
                                 </tasks>
                             </configuration>
                         </execution>
@@ -1032,7 +1032,7 @@
                 </property>
             </activation>
             <properties>
-                <libnd4j.tests></libnd4j.tests>
+                <libnd4j.tests/>
                 <libnd4j.test.skip>true</libnd4j.test.skip>
                 <scala.test.skip>true</scala.test.skip>
                 <skipBackendChoice>true</skipBackendChoice>
@@ -1047,7 +1047,7 @@
                 </property>
             </activation>
             <properties>
-                <libnd4j.tests></libnd4j.tests>
+                <libnd4j.tests/>
                 <libnd4j.test.skip>true</libnd4j.test.skip>
                 <scala.test.skip>true</scala.test.skip>
                 <skipBackendChoice>true</skipBackendChoice>
