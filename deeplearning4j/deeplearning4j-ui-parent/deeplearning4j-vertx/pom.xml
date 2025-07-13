@@ -103,7 +103,7 @@
         <dependency>
             <groupId>org.webjars.npm</groupId>
             <artifactId>coreui__coreui</artifactId>
-            <version>2.1.9</version>
+            <version>3.0.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.webjars.npm</groupId>
@@ -342,7 +342,7 @@
             <dependency>
                 <groupId>org.webjars.npm</groupId>
                 <artifactId>bootstrap</artifactId>
-                <version>4.3.1</version>
+                <version>5.0.0</version>
             </dependency>
             <!-- org.webjars.npm:cytoscape -->
             <dependency>
