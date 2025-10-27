@@ -84,7 +84,7 @@
 
 
     <properties>
-        <backend.requires></backend.requires>
+        <backend.requires/>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <encoding>UTF-8</encoding>
@@ -98,7 +98,7 @@
         <datavec.version>1.0.0-SNAPSHOT</datavec.version>
         <aspectj.version>1.9.7</aspectj.version>
         <dl4j-test-resources.version>1.0.0-SNAPSHOT</dl4j-test-resources.version>
-        <dl4j-test-resources.classifier></dl4j-test-resources.classifier>
+        <dl4j-test-resources.classifier/>
         <rxjava.version>2.2.21</rxjava.version>
         <arrow.version>6.0.1</arrow.version>
         <jets3t.version>0.7.1</jets3t.version>
@@ -127,18 +127,18 @@
         <javacpp.platform.compiler/>
         <javacpp.platform.sysroot/>
         <javacpp.platform.extension/>
-        <javacpp.compiler.options></javacpp.compiler.options>
+        <javacpp.compiler.options/>
         <javacpp.platform.properties>${javacpp.platform}</javacpp.platform.properties>
 
 
         <javacpp.version>1.5.11</javacpp.version>
         <javacpp-presets.version>1.5.11</javacpp-presets.version>
         <javacv.version>1.5.11</javacv.version>
-        <javacpp.platform.additionalIncludePaths />
-        <javacpp.platform.cppincludepath />
-        <javacpp.platform.library.path />
-        <nd4j.native.basedir />
-        <nd4j.cuda.basedir />
+        <javacpp.platform.additionalIncludePaths/>
+        <javacpp.platform.cppincludepath/>
+        <javacpp.platform.library.path/>
+        <nd4j.native.basedir/>
+        <nd4j.cuda.basedir/>
 
 
         <moditect.generate.skip>true</moditect.generate.skip>
@@ -196,7 +196,7 @@
         <guava.android.version>28.0-android</guava.android.version>
         <gson.version>2.8.0</gson.version>
         <threadly.version>4.10.0</threadly.version>
-        <vertx.version>3.9.16</vertx.version>
+        <vertx.version>4.5.18</vertx.version>
 
         <flatbuffers.version>25.2.10</flatbuffers.version>
         <grpc.version>1.14.0</grpc.version>
@@ -243,7 +243,7 @@
         <kotlin-logging.version>3.0.5</kotlin-logging.version>
         <test.heap.size>8g</test.heap.size>
         <test.offheap.size>8g</test.offheap.size>
-        <module.name></module.name>
+        <module.name/>
         <jdk9.exports>--add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.cs=ALL-UNNAMED --add-opens=java.base/sun.security.action=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED --add-exports java.base/jdk.internal.misc=ALL-UNNAMED --add-exports java.base/java.nio=ALL-UNNAMED</jdk9.exports>
 
         <central.publishing.autoPublish>false</central.publishing.autoPublish>
@@ -431,7 +431,7 @@
                             </goals>
                             <configuration>
                                 <target>
-                                    <echoproperties />
+                                    <echoproperties/>
                                 </target>
                             </configuration>
                         </execution>
@@ -764,7 +764,7 @@
                 </property>
             </activation>
             <properties>
-                <libnd4j.tests></libnd4j.tests>
+                <libnd4j.tests/>
                 <libnd4j.test.skip>true</libnd4j.test.skip>
                 <scala.test.skip>true</scala.test.skip>
                 <skipBackendChoice>true</skipBackendChoice>
@@ -779,7 +779,7 @@
                 </property>
             </activation>
             <properties>
-                <libnd4j.tests></libnd4j.tests>
+                <libnd4j.tests/>
                 <libnd4j.test.skip>true</libnd4j.test.skip>
                 <scala.test.skip>true</scala.test.skip>
                 <skipBackendChoice>true</skipBackendChoice>
