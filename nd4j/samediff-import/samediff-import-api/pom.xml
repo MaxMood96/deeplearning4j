@@ -36,12 +36,12 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <commonsio.version>2.7</commonsio.version>
+    <commonsio.version>2.14.0</commonsio.version>
     <commons.lang.version>3.7</commons.lang.version>
     <commons.dbutils.version>1.7</commons.dbutils.version>
     <lombok.version>1.18.42</lombok.version>
     <logback.version>1.2.3</logback.version>
-    <protobuf.version>3.8.0</protobuf.version>
+    <protobuf.version>3.25.5</protobuf.version>
     <classgraph.version>4.8.90</classgraph.version>
     <commons-collections4.version>4.1</commons-collections4.version>
     <module.name>samediff.modelimport.api</module.name>
